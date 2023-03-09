@@ -12,6 +12,16 @@ Para rodar o projeto pela primeira vez é nescessario seguir os passos abaixo:
 ```.env
 DATABASE_URL="postgresql://<USER>:<PASSWORD>@<HOST>:<PORT>/<SCHEMA>?schema=public"
 ```
+*USER*: o usuário padrão do postgres é "postgres"
+
+*PASSWORD*: senha que você ultiliza na postgres
+
+*HOST*: se estiver rodando localmente, por padrão é "localhost"
+
+*PORT*: porta padrão do postgres é 5432
+
+*SCHEMA*: nome do seu banco de dados, exemplo: "desafio"
+
 2. Rodar o comando abaixo para instalar as dependencias
 
 ```Console
