@@ -54,7 +54,7 @@ Modelo de Json aceito pela aplicação
 ```Json
 {
     "name": "teste2",
-    "email": "teste@asda.com",
+    "email": "teste@gmail.com",
     "cpf": "teste2",
     "phone": "teste2"
 }
@@ -68,7 +68,7 @@ Exemplo de retorno
 ```
 <br><br>
 
-### Rota para mostrar formulário cadastrada entre um periodo de tempo
+### Rota para mostrar formulário cadastrado entre um periodo de tempo
 
 URL: GET http://localhost:3333/form
 
@@ -87,7 +87,7 @@ Exemplo de retorno
     {
         "id": "0f4c2e33-918a-4c3e-ab46-d393f88fffff",
         "name": "teste",
-        "email": "teste",
+        "email": "teste@gmail.com",
         "cpf": "teste",
         "phone": "teste",
         "created_at": "2023-03-05T19:17:50.855Z"
