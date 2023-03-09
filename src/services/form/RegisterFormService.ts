@@ -29,7 +29,7 @@ class RegisterFormService {
             }
         })
 
-        return { message: "Formulário cadastrado" };
+        return { message: "Inscrição  concluida" };
     }
 }
 
