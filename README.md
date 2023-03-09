@@ -2,7 +2,7 @@
 
 <p align="center">
 
-👨‍💻Projeto desenvolvido como resolução do desafio de desenvolvedor back-end Júnior. O projeto ultiliza o yarn como gerenciador de dependencia, typescript, Node.js, Express.js para a criação das rotas, postgres com o Prisma ORM para criação do banco de dados, 
+👨‍💻Projeto desenvolvido como resolução do desafio de desenvolvedor back-end Júnior. O projeto ultiliza o yarn como gerenciador de dependencia, typescript, Node.js, Express.js para a criação das rotas, postgres com o Prisma ORM para criação do banco de dados
 
 ## :gear: Instalação
 
