@@ -6,17 +6,15 @@
   "author": "stocaline <stocaline2@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
-    "createDB": "node src/database/setup-db.js"
+    "dev": "ts-node-dev src/server.ts"
   },
-  "type": "module",
   "dependencies": {
-    "@types/pg": "^8.6.6",
+    "@prisma/client": "^4.11.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-async-errors": "^3.1.1",
-    "pg": "^8.10.0"
+    "prisma": "^4.11.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
