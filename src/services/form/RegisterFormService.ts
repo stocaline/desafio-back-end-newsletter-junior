@@ -1,27 +1,27 @@
 import prismaClient from "../../prisma";
 
-interface FormRequest{
+interface FormRequest {
     name: string;
     email: string;
     cpf: string;
     phone: string;
 }
 
-class RegisterFormService{
-    async execute({name, email, cpf, phone}: FormRequest){
+class RegisterFormService {
+    async execute({ name, email, cpf, phone }: FormRequest) {
 
         const emailAlreadyExists = await prismaClient.form.findFirst({
-            where:{
+            where: {
                 email: email
             }
         })
 
-        if(emailAlreadyExists){
-            throw new Error("Email already exists")
+        if (emailAlreadyExists) {
+            throw new Error("Email já cadastrado!")
         }
 
         await prismaClient.form.create({
-            data:{
+            data: {
                 name: name,
                 email: email,
                 cpf: cpf,
